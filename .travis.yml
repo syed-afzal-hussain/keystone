@@ -3,7 +3,10 @@ language: python
 
 
 # Run tests
-script: "~/keystone/run-tests.sh"
+script: 
+  - "pwd"
+  - "ls"
+  - "~/keystone/run-tests.sh"
 
 # configure notifications (email, IRC, campfire etc)
 notifications:
