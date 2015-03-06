@@ -1,6 +1,10 @@
 # see http://about.travis-ci.org/docs/user/languages/php/ for more hints
 language: python
 
+
+# Run tests
+script: "./run-tests.sh"
+
 # configure notifications (email, IRC, campfire etc)
 notifications:
-  irc: "irc.freenode.org#yourfavouriteroomfortravis"
+  email: "syed_hussain@persistent.co.in"
